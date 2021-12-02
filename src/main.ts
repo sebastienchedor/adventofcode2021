@@ -14,8 +14,8 @@ export function execute(): void {
 
   console.log(`Verify Response`);
   if (example_response !== DayCode.example_output) {
-    console.error(
-      `Error, expected ${DayCode.example_output} but got ${DayCode.example_output} `
+    throw new Error(
+      `Error : expected ${DayCode.example_output} but got ${example_response} `
     );
   }
   console.log(`Success`);
