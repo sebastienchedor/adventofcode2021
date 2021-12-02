@@ -1,0 +1,23 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"editor.tabSize": 2,
+		"editor.formatOnSave": true,
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"[json]": {
+			"editor.defaultFormatter": "vscode.json-language-features"
+		},
+		"eslint.validate": [
+			"javascript",
+			"typescript"
+		],
+		"editor.codeActionsOnSave": {
+			"source.fixAll.eslint": true
+		},
+		"files.eol": "\n",
+	}
+}

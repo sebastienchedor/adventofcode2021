@@ -1,0 +1,24 @@
+{
+	"compilerOptions": {
+		"module": "commonjs",
+		"declaration": true,
+		"removeComments": true,
+		"target": "es6",
+		"sourceMap": true,
+		"outDir": ".build",
+		"baseUrl": ".",
+		"strict": true,
+		"noImplicitReturns": true,
+		"noUnusedLocals": false,
+		"incremental": false,
+
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"esModuleInterop": false,
+		"preserveConstEnums": true,
+		"lib": ["es6", "dom", "es2015.collection", "es2015.promise", "es2019"],
+		"forceConsistentCasingInFileNames": true
+	},
+	"include": ["src/**/*", "test/**/*"],
+	"exclude": ["node_modules", "*.json"]
+}
