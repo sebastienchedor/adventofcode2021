@@ -1,4 +1,4 @@
-import * as DayCode from './days/day2_2';
+import * as DayCode from './days/day3_1';
 
 export function execute(): void {
 	// Verify example
