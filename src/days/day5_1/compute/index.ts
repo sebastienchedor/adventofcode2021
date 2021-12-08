@@ -9,7 +9,6 @@ export function compute(input: InputModel): number {
 
 		let x1 = parseInt(first.split('.')[0]);
 		let y1 = parseInt(first.split('.')[1]);
-
 		let x2 = parseInt(second.split('.')[0]);
 		let y2 = parseInt(second.split('.')[1]);
 
