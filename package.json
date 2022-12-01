@@ -29,6 +29,6 @@
 		"clean": "rimraf dist && rimraf node_modules",
 		"test": "npm run build && mocha --require ts-node/register test/index.ts --delay --exit",
 		"test:custom": "npm run build && mocha --require ts-node/register test/custom.ts --delay --exit",
-		"code": "ts-node src/main.ts"
+		"code": "ts-node src/2022/main.ts"
 	}
 }
